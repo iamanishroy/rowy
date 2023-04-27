@@ -23,8 +23,8 @@ addons.setConfig({
     base: "dark",
     brandTitle: "Rowy book",
     brandUrl: "https://rowy.io",
-    brandImage:
-      "https://uploads-ssl.webflow.com/611c806ecaa429d0993c1e0f/6295e57a8ee2ff6b49e577d1_horizontal%20on%20dark.png",
+    brandImage: "/static/rowybook.svg",
+    // "https://uploads-ssl.webflow.com/611c806ecaa429d0993c1e0f/6295e57a8ee2ff6b49e577d1_horizontal%20on%20dark.png",
     brandTarget: "_self",
   }),
   selectedPanel: undefined,

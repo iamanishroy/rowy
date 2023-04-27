@@ -1,6 +1,7 @@
 import React from "react";
 import type { Preview } from "@storybook/react";
-import RowyThemeProvider from "../src/theme/RowyThemeProvider";
+import Providers from "../src/Providers";
+
 import { themes } from "@storybook/theming";
 
 const preview: Preview = {
@@ -19,9 +20,9 @@ const preview: Preview = {
 
   decorators: [
     (Story) => (
-      <RowyThemeProvider>
+      <Providers>
         <Story />
-      </RowyThemeProvider>
+      </Providers>
     ),
   ],
 };
